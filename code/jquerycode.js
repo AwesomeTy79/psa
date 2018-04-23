@@ -1,0 +1,1 @@
+$(document).ready(function(){$("h1#fact").click(function(){factClicked()})})
