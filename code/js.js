@@ -17,4 +17,4 @@ function getParameterByName(name, url) {
     if (!results[2]) {return '';}
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-(function () { var sayhi = getParameterByName('sayhi'); if (sayhi != null || sayhi != false) { alert('hi'); } }());
+(function () { var sayhi = getParameterByName('sayhi'); if (sayhi != null && sayhi != false) { alert('hi'); } }());
